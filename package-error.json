@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "rimraf dist && tsc",
-    "start": "node index.js",
+    "start": "node ./dist",
     "dev": "tsnd --respawn ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
